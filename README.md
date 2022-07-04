@@ -1,4 +1,4 @@
-# pico_w_python
+# PICO W wifi connection
 
 At this momment there is no circuitpython support for the new Pico W version, so I made this MicroPython example to test 
 the wireless connection on a RaspBerry Pico W.
@@ -19,7 +19,7 @@ a *secrets.json* file at the root directory with the following structure:
 
 ## Run
 
-I'm running this program on a Raspeberry Pico W using Thonny.
+I'm running this program on a Raspeberry Pico W using [Thonny](https://thonny.org/).
 
 If everything goes fine you should get the following shell output:
 
@@ -31,9 +31,9 @@ If everything goes fine you should get the following shell output:
 #[-1] failed due to other problems
 #[ 3] connection successful
 Last connection is still active, disconnecting...
-Trying connect Xana...
+Trying connect YOUR SSID...
 #[ 3] connection successful
-IP = 192.168.123.124
+IP = YOUR LOCAL IP
 {'milliseconds_since_epoch': 1656961317486, 'date': '07-04-2022', 'time': '07:01:57 PM'}
 ```
 
